@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     // Merge task-specific options with these defaults.
     var options = this.options({
       port: 8000,
-      base: '.',
+      base: './public',
       keepalive: false
     });
 
